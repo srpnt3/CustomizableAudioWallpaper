@@ -1,0 +1,191 @@
+{
+	"file": "wallpaper.html",
+	"general": {
+		"properties": {
+			"schemecolor": {
+				"order": 0,
+				"text": "Background color",
+				"type": "color",
+				"value": "0 0 0"
+			},
+			"accentcolor": {
+				"order": 1,
+				"text": "Accent color",
+				"type": "color",
+				"value": "0.9411764705882353 0.203921568627451 0.203921568627451"
+			},
+			"textcolor": {
+				"order": 1,
+				"text": "Text color",
+				"type": "color",
+				"value": "1 1 1"
+			},
+			"backgroundimage": {
+				"order": 3,
+				"text": "Background image",
+				"type": "file",
+				"value": ""
+			},
+			"logo": {
+				"order": 4,
+				"text": "Logo",
+				"type": "file",
+				"value": ""
+			},
+			"mirrored": {
+				"order": 5,
+				"text": "Mirror",
+				"type": "bool",
+				"value": false
+			},
+			"rotate": {
+				"order": 6,
+				"text": "Rotate",
+				"type": "bool",
+				"value": true
+			},
+			"particlenumber": {
+				"order": 7,
+				"max": 200,
+				"min": 100,
+				"text": "Particle number",
+				"type": "slider",
+				"value": 150
+			},
+			"circleradius": {
+				"order": 8,
+				"max": 400,
+				"min": 100,
+				"text": "Circle radius",
+				"type": "slider",
+				"value": 350
+			},
+			"logosize": {
+				"order": 9,
+				"max": 400,
+				"min": 100,
+				"text": "Logo size",
+				"type": "slider",
+				"value": 350
+			},
+			"logomovement": {
+				"order": 10,
+				"options": [
+					{
+						"label": "None",
+						"value": 1
+					},
+					{
+						"label": "Scale",
+						"value": 2
+					},
+					{
+						"label": "Move",
+						"value": 3
+					},
+					{
+						"label": "Both",
+						"value": 4
+					}
+				],
+				"text": "Logo movement",
+				"type": "combo",
+				"value": 1
+			},
+			"circlemovement": {
+				"order": 11,
+				"options": [
+					{
+						"label": "None",
+						"value": 1
+					},
+					{
+						"label": "Scale",
+						"value": 2
+					},
+					{
+						"label": "Move",
+						"value": 3
+					},
+					{
+						"label": "Both",
+						"value": 4
+					}
+				],
+				"text": "Circle movement",
+				"type": "combo",
+				"value": 1
+			},
+			"backgroundmovement": {
+				"order": 12,
+				"options": [
+					{
+						"label": "None",
+						"value": 1
+					},
+					{
+						"label": "Scale",
+						"value": 2
+					},
+					{
+						"label": "Move",
+						"value": 3
+					},
+					{
+						"label": "Both",
+						"value": 4
+					}
+				],
+				"text": "Background movement",
+				"type": "combo",
+				"value": 1
+			},
+			"circleposition": {
+				"order": 13,
+				"options": [
+					{
+						"label": "Left",
+						"value": 1
+					},
+					{
+						"label": "Center",
+						"value": 2
+					},
+					{
+						"label": "Right",
+						"value": 3
+					}
+				],
+				"text": "Circle Position",
+				"type": "combo",
+				"value": 2
+			},
+			"clockposition": {
+				"order": 14,
+				"options": [
+					{
+						"label": "Corner",
+						"value": 1
+					},
+					{
+						"label": "Visualizer",
+						"value": 2
+					}
+				],
+				"text": "Clock Position",
+				"type": "combo",
+				"value": 1
+			},
+			"invertedmovement": {
+				"order": 15,
+				"text": "Inverted logo & circle movement",
+				"type": "bool",
+				"value": true
+			}
+		},
+		"supportsaudioprocessing": true
+	},
+	"preview": "preview.png",
+	"title": "Customizable Audio Wallpaper",
+	"type": "web"
+}
